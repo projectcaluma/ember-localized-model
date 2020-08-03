@@ -1,3 +1,48 @@
-<h2 id="title">Welcome to Ember</h2>
+<h1 id="title">
+  Welcome to ember-localized-model
+</h1>
 
-{{outlet}}
+<h2>
+  Book name: {{this.book.name}}
+</h2>
+
+<span>
+  You can change the display language for the book name with the following buttons.
+</span>
+
+<p>
+  <b>
+    Change
+    <code>
+      intl.primaryLocale
+    </code>
+    :
+  </b>
+  {{#each this.sortedLocales as |locale|}}
+    <button type="button" {{on "click" (fn this.changeLocale locale)}}>
+      {{locale}}
+    </button>
+  {{/each}}
+</p>
+
+<p>
+  <b>
+    Change
+    <code>
+      book.localizedFieldLocale
+    </code>
+    on model
+  </b>
+  (has priority over intl):
+  {{#each this.sortedLocales as |locale|}}
+    <button type="button" {{on "click" (fn this.changeModelLocale locale)}}>
+      {{locale}}
+    </button>
+  {{/each}}
+
+  {{#if this.book.localizedFieldLocale}}
+    <button type="button" {{on "click" (fn this.changeModelLocale "")}}>
+      reset
+    </button>
+  {{/if}}
+</p>
