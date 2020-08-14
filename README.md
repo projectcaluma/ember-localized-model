@@ -77,11 +77,47 @@ If you want to access the raw data as sent by the backend, you can use
 `yourModel.getUnlocalizedField("firstName")`. This will return the raw data. 
 
 For example: 
-```
+```json
 {
   "de": "Johan",
   "en": "John"
 }
+```
+
+Known Issues
+------------------------------------------------------------------------------
+#### Creating model records
+If you have your model defined with a `@localizedAttr` field and directly set the
+field on `store.createRecord` the setter for the field will not be called and
+instead of the dictionary with the locale key, the value directly will be assigned
+to the field. 
+
+The serialized model then looks like this:
+```json
+{
+  "type": "your-model",
+  "attributes": {
+    "name": "your name"
+  } 
+}
+```
+instead of 
+```json
+{
+  "type": "your-model",
+  "attributes": {
+    "name": {
+      "en": "your name"
+    }
+  } 
+}
+```
+
+__Solution__:
+Create your record first and then assign the localized field:
+```js
+const yourModel = this.store.createRecord("yourModel");
+yourModel.name = "this is a test";
 ```
 
 Contributing
