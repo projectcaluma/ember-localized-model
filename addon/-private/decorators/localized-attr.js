@@ -1,3 +1,5 @@
+import { getOwner } from '@ember/application';
+import { isEmpty } from '@ember/utils';
 import { attr } from "@ember-data/model";
 
 export default function (...args) {
@@ -11,7 +13,25 @@ export default function (...args) {
   attrComputed.get = function () {
     const value = getter.call(this);
 
-    return value && value[this.getFieldLocale()];
+    if (!value) {
+      return;
+    }
+
+    const {
+      localizedModel: { allowAnyFallback = false, fallbacks = [] } = {}
+    } = getOwner(this).resolveRegistration('config:environment');
+
+    if(value[this.getFieldLocale()] || (!allowAnyFallback && !fallbacks.length)){
+      return value[this.getFieldLocale()];
+    }
+
+    let key = fallbacks.find(key => !isEmpty(value[key]));
+
+    if (!key && allowAnyFallback) {
+      key = Object.keys(value).find(key => !isEmpty(value[key]));
+    }
+
+    return value[key]
   };
 
   attrComputed.set = function (value) {
