@@ -51,7 +51,7 @@ export default function (...args) {
     setter.call(this, attribute);
   };
 
-  Object.defineProperty(target, `_${name}`, {
+  Object.defineProperty(target, `${name}Object`, {
     get() {
       return getter.call(this);
     },
