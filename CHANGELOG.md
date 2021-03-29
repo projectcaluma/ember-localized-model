@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/projectcaluma/ember-localized-model/compare/v1.1.0...v1.2.0) (2021-03-29)
+
+
+### Features
+
+* make source property name public under new name ([41d56c1](https://github.com/projectcaluma/ember-localized-model/commit/41d56c1e8fab000b6cbc313891d0c666482403cf))
+
 # [1.1.0](https://github.com/projectcaluma/ember-localized-model/compare/v1.0.0...v1.1.0) (2021-03-17)
 
 
