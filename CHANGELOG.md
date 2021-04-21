@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/projectcaluma/ember-localized-model/compare/v1.2.0...v1.2.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* **decorators/localized-attr:** set default value for new object api ([8abf42f](https://github.com/projectcaluma/ember-localized-model/commit/8abf42f2b3bb30d55da6b35d1e41c676e152fbc3))
+
 # [1.2.0](https://github.com/projectcaluma/ember-localized-model/compare/v1.1.0...v1.2.0) (2021-03-29)
 
 
