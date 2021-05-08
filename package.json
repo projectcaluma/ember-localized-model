@@ -28,7 +28,7 @@
   "dependencies": {
     "ember-cli-babel": "^7.19.0",
     "ember-cli-htmlbars": "^4.3.1",
-    "ember-data": "^3.20.0"
+    "ember-data": "^3.27.0"
   },
   "devDependencies": {
     "@adfinis-sygroup/semantic-release-config": "^3.1.0",
