@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-module.exports = function(/* environment, appConfig */) {
+module.exports = function (/* environment, appConfig */) {
   return {
     localizedModel: {
       // If this is true the decorator will get the value in any language
