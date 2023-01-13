@@ -1,7 +1,7 @@
 import Controller from "@ember/controller";
+import { action } from "@ember/object";
 import { inject as service } from "@ember/service";
 import { tracked } from "@glimmer/tracking";
-import { action } from "@ember/object";
 
 export default class ApplicationController extends Controller {
   @service store;
@@ -14,7 +14,7 @@ export default class ApplicationController extends Controller {
     this.intl.setLocale(["en", "de", "fr"]);
 
     const book = this.store.createRecord("book");
-    book._name = { de: "Der Mond", en: "The Moon", fr: "La Lune" };
+    book.nameObject = { de: "Der Mond", en: "The Moon", fr: "La Lune" };
     this.book = book;
   }
 
