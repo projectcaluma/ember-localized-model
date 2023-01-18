@@ -60,9 +60,10 @@ export default function (...args) {
 
   // Use the getter and setter for the original property so both
   // the Object and the previous getter and setter access the same value.
-  Object.defineProperty(target, `${name}Object`, {
+  Object.defineProperty(target, `_${name}`, {
     get: getter,
     set: setter,
+    enumerable: false,
   });
 
   return attrComputed;
