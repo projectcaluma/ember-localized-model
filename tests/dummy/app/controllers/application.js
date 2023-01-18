@@ -14,7 +14,11 @@ export default class ApplicationController extends Controller {
     this.intl.setLocale(["en", "de", "fr"]);
 
     const book = this.store.createRecord("book");
-    book.nameObject = { de: "Der Mond", en: "The Moon", fr: "La Lune" };
+    book.localizedObjects.name = {
+      de: "Der Mond",
+      en: "The Moon",
+      fr: "La Lune",
+    };
     this.book = book;
   }
 

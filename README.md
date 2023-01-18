@@ -74,7 +74,7 @@ If you want to switch locale for only one specific model, you can set
 `yourModel.localizedFieldLocale` to the desired locale.
 
 If you want to access the raw data as sent by the backend, you can use
-`yourModel.getUnlocalizedField("firstName")`. This will return the raw data.
+`yourModel.localizedObjects.firstName`. This will return the raw data.
 
 For example:
 

@@ -7,7 +7,7 @@ export default class ScopeSerializer extends JSONAPISerializer {
     const { localizedFields = [] } = snapshot.record;
 
     if (localizedFields.includes(key)) {
-      json.attributes[key] = snapshot.record.getUnlocalizedField(key);
+      json.attributes[key] = snapshot.record.localizedObjects[key];
     }
   }
 }
