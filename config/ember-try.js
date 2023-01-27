@@ -1,7 +1,7 @@
 "use strict";
 
 /* eslint-disable node/no-unpublished-require */
-const { embroiderSafe, embroiderOptimized } = require("@embroider/test-setup");
+// const { embroiderSafe, embroiderOptimized } = require("@embroider/test-setup");
 const getChannelURL = require("ember-source-channel-url");
 
 module.exports = async function () {
@@ -66,8 +66,9 @@ module.exports = async function () {
           },
         },
       },
-      embroiderSafe(),
-      embroiderOptimized(),
+      // Disable embroider for now due to: https://github.com/emberjs/data/issues/8396
+      // embroiderSafe(),
+      // embroiderOptimized(),
     ],
   };
 };
