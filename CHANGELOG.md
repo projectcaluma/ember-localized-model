@@ -1,3 +1,30 @@
+# [2.0.0](https://github.com/projectcaluma/ember-localized-model/compare/v1.2.1...v2.0.0) (2023-01-27)
+
+
+### Bug Fixes
+
+* add missing params for deprecate ([efc09aa](https://github.com/projectcaluma/ember-localized-model/commit/efc09aa9e8748b297d0c4b41426995d01bad6831))
+* change license to LGPL ([3aa7bc7](https://github.com/projectcaluma/ember-localized-model/commit/3aa7bc74547e0e9f910c7f9f0a96093a4bcee47e))
+
+
+### chore
+
+* upgrade to ember v4 ([65ab213](https://github.com/projectcaluma/ember-localized-model/commit/65ab2130dc9b02d197737daa80e83c197fa5e9d2))
+
+
+### Code Refactoring
+
+* **decorator:** remove need for magic getter to access localized object of a field ([af52008](https://github.com/projectcaluma/ember-localized-model/commit/af520080663d38c349bc232ccbf73d4e32d94055))
+
+
+### BREAKING CHANGES
+
+* **decorator:** - Remove previously deprecated `getUnlocalizedField`.
+- Access the localized object of an attribute via `localizedObjects.myField` instead of the magic key `myFieldObject`.
+* - Requires ember-auto-import >= v2.0.0
+- Supports node >= 16.x
+* The library is now licensed under the LGPL-3.0-or-later license.
+
 ## [1.2.1](https://github.com/projectcaluma/ember-localized-model/compare/v1.2.0...v1.2.1) (2021-04-21)
 
 ### Bug Fixes
