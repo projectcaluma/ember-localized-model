@@ -6099,7 +6099,7 @@ ember-compatibility-helpers@^1.1.2, ember-compatibility-helpers@^1.2.1:
     fs-extra "^9.1.0"
     semver "^5.4.1"
 
-ember-data@^4.9.1:
+ember-data@4.12.0:
   version "4.12.0"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-4.12.0.tgz#898073c5b83181d627ae9f11f29c177adc0e2b8b"
   integrity sha512-E1A94HOurihoaFzJmArhtXfp56WsLlbTyhnqWfZKgqWZz1qKF4GVbDuOsGIsy6u345LdUCp2jtodRO2s43k88Q==
