@@ -1,3 +1,21 @@
+# [3.0.0](https://github.com/projectcaluma/ember-localized-model/compare/v2.0.0...v3.0.0) (2023-05-17)
+
+
+### Bug Fixes
+
+* **deps:** convert @glimmer/tracking to dependency ([947a5c4](https://github.com/projectcaluma/ember-localized-model/commit/947a5c4f80096e6b8391c24d822523eb568c1350))
+* **deps:** convert ember-data to peer dependency ([b3adf35](https://github.com/projectcaluma/ember-localized-model/commit/b3adf353dfb53886598ac8db998a55dbe49b63c4))
+
+
+### chore
+
+* **deps:** update dependencies ([0ef2341](https://github.com/projectcaluma/ember-localized-model/commit/0ef2341e9008041ae2e4f477d35455350dff1e40))
+
+
+### BREAKING CHANGES
+
+* **deps:** Drop support for Ember v3.
+
 # [2.0.0](https://github.com/projectcaluma/ember-localized-model/compare/v1.2.1...v2.0.0) (2023-01-27)
 
 
