@@ -9,22 +9,21 @@ export default class LocalizedModel extends Model {
 
   get localizedObjects() {
     if (!this._localizedObjects) {
-      // Save this since the getter will have the
-      // context from the `_localizedObjects` object.
-      const context = this;
-      this._localizedObjects = this.localizedFields.reduce(
-        (localizedObjects, field) => ({
-          ...localizedObjects,
-          get [field]() {
-            return context[`_${field}`];
+      // this is not in the constructor because
+      // otherwise the environment cannot be resolved in the decorator
+      this._localizedObjects = {};
+      this.localizedFields.forEach((field) =>
+        Object.defineProperty(this._localizedObjects, field, {
+          get: () => {
+            return this[`_${field}`];
           },
-          set [field](value) {
-            context[`_${field}`] = value;
+          set: (value) => {
+            this[`_${field}`] = value;
           },
-        }),
-        {}
+        })
       );
     }
+
     return this._localizedObjects;
   }
 
