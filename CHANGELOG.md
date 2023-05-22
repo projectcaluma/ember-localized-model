@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/projectcaluma/ember-localized-model/compare/v3.0.0...v3.0.1) (2023-05-22)
+
+
+### Bug Fixes
+
+* **model:** use objectDefineProperty for localized attributes ([1b1b05b](https://github.com/projectcaluma/ember-localized-model/commit/1b1b05b150e175befda6942dfea8b12a974e7252))
+
 # [3.0.0](https://github.com/projectcaluma/ember-localized-model/compare/v2.0.0...v3.0.0) (2023-05-17)
 
 
