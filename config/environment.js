@@ -9,6 +9,8 @@ module.exports = function (/* environment, appConfig */) {
       // Set fallback languages in order they should be tried
       // if the preferred language has no value.
       fallbacks: [],
+      // Set if using with regions like en-US and you want to ignore the region.
+      sanitizeLocale: false,
     },
   };
 };

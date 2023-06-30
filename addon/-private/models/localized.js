@@ -1,3 +1,4 @@
+import { getOwner } from "@ember/application";
 import { inject as service } from "@ember/service";
 import Model from "@ember-data/model";
 import { tracked } from "@glimmer/tracking";
@@ -28,6 +29,14 @@ export default class LocalizedModel extends Model {
   }
 
   getFieldLocale() {
-    return this.localizedFieldLocale || this.intl.primaryLocale;
+    const locale = this.localizedFieldLocale || this.intl.primaryLocale;
+
+    const { localizedModel: { sanitzeLocale = false } = {} } =
+      getOwner(this).resolveRegistration("config:environment");
+    if (sanitzeLocale) {
+      return locale.split("-")[0];
+    }
+
+    return locale;
   }
 }

@@ -32,7 +32,7 @@ ember install ember-localized-model
 
 ## Usage
 
-#### First steps
+### First steps
 
 > You need `ember-intl` for this addon to work: `ember install ember-intl`
 
@@ -63,7 +63,7 @@ export default class YourModel extends LocalizedModel {
 }
 ```
 
-#### Accessing the fields value
+### Accessing the fields value
 
 To read the model field you can simply use `yourModel.firstName`.
 
@@ -72,6 +72,8 @@ change your `primaryLocale` to display the model field in another locale.
 
 If you want to switch locale for only one specific model, you can set
 `yourModel.localizedFieldLocale` to the desired locale.
+
+If your locale has a region such as `en-US`, but you want to disregard the region. Set `sanitizeLocale` to `true` in your `config/environment.js`:
 
 If you want to access the raw data as sent by the backend, you can use
 `yourModel.localizedObjects.firstName`. This will return the raw data.
@@ -87,7 +89,7 @@ For example:
 
 ## Known Issues
 
-#### Creating model records
+### Creating model records
 
 If you have your model defined with a `@localizedAttr` field and directly set the
 field on `store.createRecord` the setter for the field will not be called and
