@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/projectcaluma/ember-localized-model/compare/v3.0.1...v3.1.0) (2023-07-04)
+
+
+### Features
+
+* add locale region sanitization ([00fdd75](https://github.com/projectcaluma/ember-localized-model/commit/00fdd7558dc090f2f24f24148c4a813182909a81))
+
 ## [3.0.1](https://github.com/projectcaluma/ember-localized-model/compare/v3.0.0...v3.0.1) (2023-05-22)
 
 
