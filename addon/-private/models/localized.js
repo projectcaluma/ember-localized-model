@@ -1,6 +1,6 @@
-import { getOwner } from "@ember/application";
 import { inject as service } from "@ember/service";
 import Model from "@ember-data/model";
+import { macroCondition, getOwnConfig } from "@embroider/macros";
 import { tracked } from "@glimmer/tracking";
 
 export default class LocalizedModel extends Model {
@@ -31,9 +31,7 @@ export default class LocalizedModel extends Model {
   getFieldLocale() {
     const locale = this.localizedFieldLocale || this.intl.primaryLocale;
 
-    const { localizedModel: { sanitzeLocale = false } = {} } =
-      getOwner(this).resolveRegistration("config:environment");
-    if (sanitzeLocale) {
+    if (macroCondition(getOwnConfig().sanitizeLocale)) {
       return locale.split("-")[0];
     }
 
