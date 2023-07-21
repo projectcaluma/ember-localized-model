@@ -77,7 +77,7 @@
     "stylelint": "15.10.1",
     "stylelint-config-standard": "34.0.0",
     "stylelint-prettier": "3.0.0",
-    "webpack": "5.88.1"
+    "webpack": "5.88.2"
   },
   "peerDependencies": {
     "ember-data": "^3.28.13 || ^4.0.0",
