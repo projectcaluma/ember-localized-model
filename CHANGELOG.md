@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/projectcaluma/ember-localized-model/compare/v3.1.0...v3.2.0) (2023-07-27)
+
+
+### Features
+
+* add embroider/macros for better config ([d67afbc](https://github.com/projectcaluma/ember-localized-model/commit/d67afbcb52ae5b87dcec699d1b47d78908bf7532))
+
 # [3.1.0](https://github.com/projectcaluma/ember-localized-model/compare/v3.0.1...v3.1.0) (2023-07-04)
 
 
