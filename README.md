@@ -73,7 +73,21 @@ change your `primaryLocale` to display the model field in another locale.
 If you want to switch locale for only one specific model, you can set
 `yourModel.localizedFieldLocale` to the desired locale.
 
-If your locale has a region such as `en-US`, but you want to disregard the region. Set `sanitizeLocale` to `true` with [@embroider/macros](https://github.com/embroider-build/embroider/tree/main/packages/macros):
+If your locale has a region such as `en-US`, but you want to disregard the
+region. Set `sanitizeLocale` to `true` in your `ember-cli-build.js` file:
+
+```js
+module.exports = function (defaults) {
+  const app = new EmberApp(defaults, {
+    "localized-model": {
+      sanitizeLocale: true,
+    },
+    // ...
+  });
+
+  // ...
+};
+```
 
 If you want to access the raw data as sent by the backend, you can use
 `yourModel.localizedObjects.firstName`. This will return the raw data.

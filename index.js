@@ -2,12 +2,19 @@
 
 module.exports = {
   name: require("./package").name,
+
   options: {
     "@embroider/macros": {
-      setOwnConfig: {
-        // Set if using with regions like en-US and you want to ignore the region.
-        sanitizeLocale: false,
-      },
+      setOwnConfig: {},
     },
+  },
+
+  included(...args) {
+    this._super.included.apply(this, ...args);
+
+    const app = this._findHost(this);
+
+    this.options["@embroider/macros"].setOwnConfig.sanitizeLocale =
+      app.options["localized-model"]?.sanitizeLocale ?? false;
   },
 };
