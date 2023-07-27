@@ -21,7 +21,7 @@ export default class LocalizedModel extends Model {
           set: (value) => {
             this[`_${field}`] = value;
           },
-        })
+        }),
       );
     }
 
