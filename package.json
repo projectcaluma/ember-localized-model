@@ -35,7 +35,7 @@
     "@glimmer/tracking": "^1.1.2",
     "ember-cli-babel": "^7.26.11",
     "ember-cli-htmlbars": "^6.3.0",
-    "ember-intl": "^5.7.0"
+    "ember-intl": "^6.1.1"
   },
   "devDependencies": {
     "@adfinis/eslint-config": "2.0.0",
