@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/projectcaluma/ember-localized-model/compare/v3.2.1...v3.2.2) (2023-12-05)
+
+
+### Bug Fixes
+
+* **deps:** install ember-intl automatically ([dd89cff](https://github.com/projectcaluma/ember-localized-model/commit/dd89cff953e98770c8e8c8cb67958a391aee2484))
+
 ## [3.2.1](https://github.com/projectcaluma/ember-localized-model/compare/v3.2.0...v3.2.1) (2023-12-05)
 
 
