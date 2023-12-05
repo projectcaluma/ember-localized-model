@@ -34,8 +34,6 @@ ember install ember-localized-model
 
 ### First steps
 
-> You need `ember-intl` for this addon to work: `ember install ember-intl`
-
 To use this addon, first you need to import and extend your model from `LocalizedModel`:
 
 ```js
