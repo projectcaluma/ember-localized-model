@@ -35,8 +35,7 @@
     "@embroider/macros": "^1.13.3",
     "@glimmer/tracking": "^1.1.2",
     "ember-cli-babel": "^8.2.0",
-    "ember-cli-htmlbars": "^6.3.0",
-    "ember-intl": "^6.3.2"
+    "ember-cli-htmlbars": "^6.3.0"
   },
   "devDependencies": {
     "@adfinis/eslint-config": "2.1.0",
@@ -58,6 +57,7 @@
     "ember-cli-sri": "2.1.1",
     "ember-cli-terser": "4.0.2",
     "ember-data": "5.3.0",
+    "ember-intl": "6.3.2",
     "ember-load-initializers": "2.1.2",
     "ember-qunit": "8.0.2",
     "ember-resolver": "11.0.1",
@@ -84,7 +84,8 @@
   },
   "peerDependencies": {
     "ember-data": "^3.28.13 || ^4.0.0 || ^5.0.0",
-    "ember-source": "^4.0.0"
+    "ember-source": "^4.0.0",
+    "ember-intl": "^6.3.2"
   },
   "engines": {
     "node": "16.* || >= 18"
