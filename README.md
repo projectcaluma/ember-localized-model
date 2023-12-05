@@ -5,12 +5,12 @@ with all languages present.
 
 **Example:**
 
-```
+```json
 {
-  id: "1",
-  type: "books",
-  attributes: {
-    name: {
+  "id": "1",
+  "type": "books",
+  "attributes": {
+    "name": {
       "de": "Der Name des Windes",
       "en": "The name of the wind"
     }
@@ -26,7 +26,7 @@ with all languages present.
 
 ## Installation
 
-```
+```bash
 ember install ember-localized-model
 ```
 
