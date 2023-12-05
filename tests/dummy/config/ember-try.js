@@ -24,6 +24,14 @@ module.exports = async function () {
         },
       },
       {
+        name: "ember-lts-4.12",
+        npm: {
+          devDependencies: {
+            "ember-source": "~4.12.0",
+          },
+        },
+      },
+      {
         name: "ember-release",
         npm: {
           devDependencies: {
@@ -60,6 +68,9 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             "ember-data": "~3.28.13",
+            // Downgrade `ember-source` because of deprecations:
+            // - ember-polyfills.deprecate-assign: https://deprecations.emberjs.com/v4.x/#toc_ember-polyfills-deprecate-assign
+            // - remove-owner-inject: https://deprecations.emberjs.com/v4.x#toc_implicit-injections
             "ember-source": "~4.8.0",
           },
         },
