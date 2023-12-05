@@ -9,7 +9,7 @@
     "json-api"
   ],
   "repository": "git@github.com:projectcaluma/ember-localized-model.git",
-  "license": "GPL-3.0",
+  "license": "LGPL-3.0",
   "author": "Adfinis",
   "directories": {
     "doc": "doc",
