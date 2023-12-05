@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/projectcaluma/ember-localized-model/compare/v3.2.0...v3.2.1) (2023-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([9e29831](https://github.com/projectcaluma/ember-localized-model/commit/9e298315e7d6071ea1ead9cd2b6f03bbb2d437c9))
+
 # [3.2.0](https://github.com/projectcaluma/ember-localized-model/compare/v3.1.0...v3.2.0) (2023-07-27)
 
 

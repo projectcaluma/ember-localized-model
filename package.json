@@ -1,6 +1,6 @@
 {
   "name": "ember-localized-model",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Handle model field translations for JSON:API",
   "keywords": [
     "ember-addon",
