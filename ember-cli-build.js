@@ -22,22 +22,5 @@ module.exports = function (defaults) {
         package: "qunit",
       },
     ],
-    // https://github.com/embroider-build/embroider/issues/1322#issuecomment-1386857904
-    packageRules: [
-      {
-        package: "@ember-data/store",
-        addonModules: {
-          "-private.js": {
-            dependsOnModules: [],
-          },
-          "-private/system/core-store.js": {
-            dependsOnModules: [],
-          },
-          "-private/system/model/internal-model.js": {
-            dependsOnModules: [],
-          },
-        },
-      },
-    ],
   });
 };
