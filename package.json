@@ -31,11 +31,12 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "@babel/core": "^7.23.2",
     "@embroider/macros": "^1.13.3",
     "@glimmer/tracking": "^1.1.2",
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0",
-    "ember-intl": "^6.3.0"
+    "ember-intl": "^6.3.2"
   },
   "devDependencies": {
     "@adfinis/eslint-config": "2.0.0",
@@ -43,7 +44,6 @@
     "@babel/eslint-parser": "7.23.3",
     "@babel/plugin-proposal-decorators": "7.23.5",
     "@ember/optional-features": "2.0.0",
-    "@ember/string": "3.1.1",
     "@ember/test-helpers": "3.2.1",
     "@embroider/test-setup": "3.0.3",
     "@glimmer/component": "1.1.2",
@@ -65,8 +65,8 @@
     "ember-source-channel-url": "3.0.0",
     "ember-template-lint": "5.13.0",
     "ember-try": "3.0.0",
-    "eslint": "8.54.0",
-    "eslint-config-prettier": "8.10.0",
+    "eslint": "8.55.0",
+    "eslint-config-prettier": "9.1.0",
     "eslint-plugin-ember": "11.11.1",
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-n": "16.3.1",
