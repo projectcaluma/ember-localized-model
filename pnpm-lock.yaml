@@ -80,8 +80,8 @@ devDependencies:
     specifier: 5.3.0
     version: 5.3.0(@babel/core@7.23.5)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.4.0)
   ember-intl:
-    specifier: 6.3.2
-    version: 6.3.2(@babel/core@7.23.5)(typescript@5.3.2)(webpack@5.89.0)
+    specifier: 6.4.0
+    version: 6.4.0(@babel/core@7.23.5)(typescript@5.3.2)(webpack@5.89.0)
   ember-load-initializers:
     specifier: 2.1.2
     version: 2.1.2(@babel/core@7.23.5)
@@ -6114,8 +6114,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-intl@6.3.2(@babel/core@7.23.5)(typescript@5.3.2)(webpack@5.89.0):
-    resolution: {integrity: sha512-UJ91JjlY3z6fjajoHhhJtKUbgqEr/l6Ie4Viqn0B3Lrbavxg5IgAIvyZZ9fOVtq05MDtCuc610zV6vLOc71G0w==}
+  /ember-intl@6.4.0(@babel/core@7.23.5)(typescript@5.3.2)(webpack@5.89.0):
+    resolution: {integrity: sha512-BXxscjgoqzXQ6tUSV8aJsQcUAIcfqLJnNjegarFWdBBHLEOffQ8xARhvQC0hW40zGi/RHFEyTTx7vbiCPGtP1A==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
       typescript: ^4.8.0 || ^5.0.0
