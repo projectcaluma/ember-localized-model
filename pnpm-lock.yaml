@@ -80,8 +80,8 @@ devDependencies:
     specifier: 5.3.0
     version: 5.3.0(@babel/core@7.24.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.5.0)
   ember-intl:
-    specifier: 6.5.1
-    version: 6.5.1(@babel/core@7.24.3)(typescript@5.3.2)(webpack@5.91.0)
+    specifier: 6.5.3
+    version: 6.5.3(@babel/core@7.24.3)(typescript@5.3.2)(webpack@5.91.0)
   ember-load-initializers:
     specifier: 2.1.2
     version: 2.1.2(@babel/core@7.24.3)
@@ -4062,7 +4062,7 @@ packages:
       hash-for-dep: 1.5.1
       heimdalljs: 0.2.6
       heimdalljs-logger: 0.1.10
-      json-stable-stringify: 1.1.0
+      json-stable-stringify: 1.1.1
       rsvp: 4.8.5
       workerpool: 3.1.2
     transitivePeerDependencies:
@@ -4081,7 +4081,7 @@ packages:
       hash-for-dep: 1.5.1
       heimdalljs: 0.2.6
       heimdalljs-logger: 0.1.10
-      json-stable-stringify: 1.1.0
+      json-stable-stringify: 1.1.1
       rsvp: 4.8.5
       workerpool: 6.5.1
     transitivePeerDependencies:
@@ -5020,7 +5020,7 @@ packages:
     dependencies:
       chalk: 2.4.2
       inquirer: 6.5.2
-      json-stable-stringify: 1.1.0
+      json-stable-stringify: 1.1.1
       ora: 3.4.0
       through2: 3.0.2
     dev: true
@@ -6057,8 +6057,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-cli-typescript@5.2.1:
-    resolution: {integrity: sha512-qqp5TAIuPHxHiGXJKL+78Euyhy0zSKQMovPh8sJpN/ZBYx0H90pONufHR3anaMcp1snVfx4B+mb9+7ijOik8ZA==}
+  /ember-cli-typescript@5.3.0:
+    resolution: {integrity: sha512-gFA+ZwmsvvFwo2Jz/B9GMduEn+fPoGb69qWGP0Tp3+Tu5xypDtIKVSZ5086I3Cr19cLXD4HkrOR3YQvdUKzAkQ==}
     engines: {node: '>= 12.*'}
     dependencies:
       ansi-to-html: 0.6.15
@@ -6313,8 +6313,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-intl@6.5.1(@babel/core@7.24.3)(typescript@5.3.2)(webpack@5.91.0):
-    resolution: {integrity: sha512-3bUbrEYLTMignJLMn/bTY4KdYhpO2QWM/oxRc/29z7ZbUnIzH5V/3LTk0Qe6B3dLgOVR3/6MqfO2enFeEZh3gw==}
+  /ember-intl@6.5.3(@babel/core@7.24.3)(typescript@5.3.2)(webpack@5.91.0):
+    resolution: {integrity: sha512-wt3YyWHMHdK8pyJl2ymtXYhO3apgY1WnQB1w6glFthpNdO8q8p1lrK990gwX5kRvTDpXnfHwVhArHamb09E8PQ==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
       typescript: ^4.8.0 || ^5.0.0
@@ -6334,7 +6334,7 @@ packages:
       cldr-core: 44.1.0
       ember-auto-import: 2.7.2(webpack@5.91.0)
       ember-cli-babel: 8.2.0(@babel/core@7.24.3)
-      ember-cli-typescript: 5.2.1
+      ember-cli-typescript: 5.3.0
       eventemitter3: 5.0.1
       extend: 3.0.2
       fast-memoize: 2.5.2
@@ -9092,6 +9092,7 @@ packages:
       isarray: 2.0.5
       jsonify: 0.0.1
       object-keys: 1.1.1
+    dev: true
 
   /json-stable-stringify@1.1.1:
     resolution: {integrity: sha512-SU/971Kt5qVQfJpyDveVhQ/vya+5hvrjClFOcr8c0Fq5aODJjMwutrOfCU+eCnVD5gpx1Q3fEqkyom77zH1iIg==}
