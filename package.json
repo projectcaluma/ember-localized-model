@@ -31,7 +31,7 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "@babel/core": "^7.24.0",
+    "@babel/core": "^7.24.3",
     "@embroider/macros": "^1.15.0",
     "@glimmer/tracking": "^1.1.2",
     "ember-cli-babel": "^8.2.0",
