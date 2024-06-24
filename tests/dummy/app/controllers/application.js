@@ -23,12 +23,12 @@ export default class ApplicationController extends Controller {
   }
 
   get sortedLocales() {
-    return [...this.intl.locale].sort();
+    return [...this.intl._locale].sort();
   }
 
   @action
   changeLocale(locale) {
-    this.intl.setLocale(Array.from(new Set([locale, ...this.intl.locale])));
+    this.intl.setLocale(Array.from(new Set([locale, ...this.intl._locale])));
   }
 
   @action

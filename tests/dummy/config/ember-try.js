@@ -8,26 +8,26 @@ module.exports = async function () {
     usePnpm: true,
     scenarios: [
       {
-        name: "ember-lts-4.4",
-        npm: {
-          devDependencies: {
-            "ember-source": "~4.4.0",
-          },
-        },
-      },
-      {
-        name: "ember-lts-4.8",
-        npm: {
-          devDependencies: {
-            "ember-source": "~4.8.0",
-          },
-        },
-      },
-      {
         name: "ember-lts-4.12",
         npm: {
           devDependencies: {
             "ember-source": "~4.12.0",
+          },
+        },
+      },
+      {
+        name: "ember-lts-5.4",
+        npm: {
+          devDependencies: {
+            "ember-source": "~5.4.0",
+          },
+        },
+      },
+      {
+        name: "ember-data-4.12",
+        npm: {
+          devDependencies: {
+            "ember-data": "~4.12.0",
           },
         },
       },
@@ -52,26 +52,6 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             "ember-source": await getChannelURL("canary"),
-          },
-        },
-      },
-      {
-        name: "ember-data-4.12",
-        npm: {
-          devDependencies: {
-            "ember-data": "~4.12.3",
-          },
-        },
-      },
-      {
-        name: "ember-data-3.28",
-        npm: {
-          devDependencies: {
-            "ember-data": "~3.28.13",
-            // Downgrade `ember-source` because of deprecations:
-            // - ember-polyfills.deprecate-assign: https://deprecations.emberjs.com/v4.x/#toc_ember-polyfills-deprecate-assign
-            // - remove-owner-inject: https://deprecations.emberjs.com/v4.x#toc_implicit-injections
-            "ember-source": "~4.8.0",
           },
         },
       },
