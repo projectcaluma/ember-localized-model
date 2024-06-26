@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/projectcaluma/ember-localized-model/compare/v3.2.2...v4.0.0) (2024-06-26)
+
+
+### Bug Fixes
+
+* update dependencies ([d3a7725](https://github.com/projectcaluma/ember-localized-model/commit/d3a7725d9824209fcffb711934b1f324eb272bb4))
+
+
+### BREAKING CHANGES
+
+* This addon now requires `ember-intl` >= v7,
+`ember-source` >= v4.12 and `ember-data` >= v4.12.
+
 ## [3.2.2](https://github.com/projectcaluma/ember-localized-model/compare/v3.2.1...v3.2.2) (2023-12-05)
 
 
