@@ -98,5 +98,6 @@
   },
   "release": {
     "extends": "@adfinis/semantic-release-config"
-  }
+  },
+  "packageManager": "pnpm@8.9.2"
 }
