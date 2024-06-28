@@ -53,8 +53,8 @@ devDependencies:
     specifier: 8.2.2
     version: 8.2.2
   ember-auto-import:
-    specifier: 2.7.3
-    version: 2.7.3(webpack@5.92.1)
+    specifier: 2.7.4
+    version: 2.7.4(webpack@5.92.1)
   ember-cli:
     specifier: 5.9.0
     version: 5.9.0
@@ -1769,7 +1769,7 @@ packages:
       '@ember/string': 3.1.1
       '@embroider/macros': 1.16.5
       '@warp-drive/core-types': 0.0.0-beta.4(@babel/core@7.24.7)
-      ember-auto-import: 2.7.3(webpack@5.92.1)
+      ember-auto-import: 2.7.4(webpack@5.92.1)
       ember-cli-babel: 8.2.0(@babel/core@7.24.7)
       pnpm-sync-dependencies-meta-injected: 0.0.10
       webpack: 5.92.1
@@ -2103,7 +2103,7 @@ packages:
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
       dom-element-descriptors: 0.5.0
-      ember-auto-import: 2.7.3(webpack@5.92.1)
+      ember-auto-import: 2.7.4(webpack@5.92.1)
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 6.3.0
       ember-source: 5.9.0(@babel/core@7.24.7)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.92.1)
@@ -6156,8 +6156,8 @@ packages:
   /electron-to-chromium@1.4.810:
     resolution: {integrity: sha512-Kaxhu4T7SJGpRQx99tq216gCq2nMxJo+uuT6uzz9l8TVN2stL7M06MIIXAtr9jsrLs2Glflgf2vMQRepxawOdQ==}
 
-  /ember-auto-import@2.7.3(webpack@5.92.1):
-    resolution: {integrity: sha512-EQzStGYxNvTPYWCFh0X57HFAzAvA2rHHRgBeWNDKHQ/rENNlHw0c0e0i1XebwEfv+yGHOodE4dN+f/mrYkQXLw==}
+  /ember-auto-import@2.7.4(webpack@5.92.1):
+    resolution: {integrity: sha512-6CdXSegJJc8nwwK7+1lIcBUnMVrJRNd4ZdMgcKbCAwPvcGxMgRVBddSzrX/+q/UuflvTEO26Dk1g7Z6KHMXUhw==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@babel/core': 7.24.7
@@ -6730,7 +6730,7 @@ packages:
       '@embroider/macros': 1.16.5
       '@warp-drive/core-types': 0.0.0-beta.4(@babel/core@7.24.7)
       broccoli-merge-trees: 4.2.0
-      ember-auto-import: 2.7.3(webpack@5.92.1)
+      ember-auto-import: 2.7.4(webpack@5.92.1)
       ember-cli-babel: 8.2.0(@babel/core@7.24.7)
       ember-inflector: 4.0.2
       pnpm-sync-dependencies-meta-injected: 0.0.10
@@ -6794,7 +6794,7 @@ packages:
       broccoli-source: 3.0.1
       calculate-cache-key-for-tree: 2.0.0
       cldr-core: 45.0.0
-      ember-auto-import: 2.7.3(webpack@5.92.1)
+      ember-auto-import: 2.7.4(webpack@5.92.1)
       ember-cli-babel: 8.2.0(@babel/core@7.24.7)
       ember-cli-typescript: 5.3.0
       eventemitter3: 5.0.1
@@ -6915,7 +6915,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.7.3(webpack@5.92.1)
+      ember-auto-import: 2.7.4(webpack@5.92.1)
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
