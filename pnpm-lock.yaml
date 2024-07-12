@@ -80,8 +80,8 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3(@babel/core@7.24.7)(@ember/string@3.1.1)(ember-source@5.9.0)
   ember-intl:
-    specifier: 7.0.2
-    version: 7.0.2(typescript@5.5.2)(webpack@5.92.1)
+    specifier: 7.0.4
+    version: 7.0.4(typescript@5.5.2)(webpack@5.92.1)
   ember-load-initializers:
     specifier: 2.1.2
     version: 2.1.2(@babel/core@7.24.7)
@@ -6204,6 +6204,50 @@ packages:
       - webpack
     dev: true
 
+  /ember-auto-import@2.7.4(webpack@5.92.1):
+    resolution: {integrity: sha512-6CdXSegJJc8nwwK7+1lIcBUnMVrJRNd4ZdMgcKbCAwPvcGxMgRVBddSzrX/+q/UuflvTEO26Dk1g7Z6KHMXUhw==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      '@babel/core': 7.24.7
+      '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.24.7)
+      '@babel/plugin-proposal-decorators': 7.24.7(@babel/core@7.24.7)
+      '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.24.7)
+      '@babel/plugin-transform-class-static-block': 7.24.7(@babel/core@7.24.7)
+      '@babel/preset-env': 7.24.7(@babel/core@7.24.7)
+      '@embroider/macros': 1.16.4
+      '@embroider/shared-internals': 2.6.1
+      babel-loader: 8.3.0(@babel/core@7.24.7)(webpack@5.92.1)
+      babel-plugin-ember-modules-api-polyfill: 3.5.0
+      babel-plugin-ember-template-compilation: 2.2.5
+      babel-plugin-htmlbars-inline-precompile: 5.3.1
+      babel-plugin-syntax-dynamic-import: 6.18.0
+      broccoli-debug: 0.6.5
+      broccoli-funnel: 3.0.8
+      broccoli-merge-trees: 4.2.0
+      broccoli-plugin: 4.0.7
+      broccoli-source: 3.0.1
+      css-loader: 5.2.7(webpack@5.92.1)
+      debug: 4.3.5(supports-color@9.4.0)
+      fs-extra: 10.1.0
+      fs-tree-diff: 2.0.1
+      handlebars: 4.7.8
+      js-string-escape: 1.0.1
+      lodash: 4.17.21
+      mini-css-extract-plugin: 2.9.0(webpack@5.92.1)
+      minimatch: 3.1.2
+      parse5: 6.0.1
+      resolve: 1.22.8
+      resolve-package-path: 4.0.3
+      semver: 7.6.2
+      style-loader: 2.0.0(webpack@5.92.1)
+      typescript-memoize: 1.1.1
+      walk-sync: 3.0.0
+    transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+      - webpack
+    dev: true
+
   /ember-cache-primitive-polyfill@1.0.1(@babel/core@7.24.7):
     resolution: {integrity: sha512-hSPcvIKarA8wad2/b6jDd/eU+OtKmi6uP+iYQbzi5TQpjsqV6b4QdRqrLk7ClSRRKBAtdTuutx+m+X+WlEd2lw==}
     engines: {node: 10.* || >= 12}
@@ -6780,8 +6824,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-intl@7.0.2(typescript@5.5.2)(webpack@5.92.1):
-    resolution: {integrity: sha512-zwLt3496Xo4rxYdyxDwYxTRyxnz20aOIzAtWRaEyTqGN7UCMOHRrOpeCjvlGN2tgO75e3tE1vovYdVGfnITkUw==}
+  /ember-intl@7.0.4(typescript@5.5.2)(webpack@5.92.1):
+    resolution: {integrity: sha512-EKIEV24BiUTx05+zi1Y37+qaOwVO/bFMZtsHPzndMDJcj6wjC1e3aMm5nvs4+jldh1TVwnIMVs9ivEoUNeijHQ==}
     engines: {node: 18.* || >= 20}
     peerDependencies:
       typescript: ^5.0.0
