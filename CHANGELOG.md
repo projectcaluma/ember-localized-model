@@ -1,3 +1,11 @@
+## [4.0.1](https://github.com/projectcaluma/ember-localized-model/compare/v4.0.0...v4.0.1) (2024-07-26)
+
+
+### Bug Fixes
+
+* **deps:** fix ember data dependencies ([ffd927e](https://github.com/projectcaluma/ember-localized-model/commit/ffd927e1ce5f9eb1efb5f2ec88f7508e5ec158a7))
+* **deps:** fix ember source peer dependency range ([cc27565](https://github.com/projectcaluma/ember-localized-model/commit/cc27565242f9e8bf54f810c432adc9faf2b603af))
+
 # [4.0.0](https://github.com/projectcaluma/ember-localized-model/compare/v3.2.2...v4.0.0) (2024-06-26)
 
 
