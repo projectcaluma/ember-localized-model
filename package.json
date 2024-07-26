@@ -31,7 +31,7 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "@babel/core": "^7.24.7",
+    "@babel/core": "^7.24.9",
     "@embroider/macros": "^1.16.5",
     "@glimmer/tracking": "^1.1.2",
     "ember-cli-babel": "^8.2.0",
@@ -43,25 +43,25 @@
     "@babel/eslint-parser": "7.24.8",
     "@babel/plugin-proposal-decorators": "7.24.7",
     "@ember/optional-features": "2.1.0",
-    "@ember/test-helpers": "3.3.0",
+    "@ember/test-helpers": "3.3.1",
     "@embroider/test-setup": "4.0.0",
     "@glimmer/component": "1.1.2",
     "broccoli-asset-rev": "3.0.0",
     "concurrently": "8.2.2",
     "ember-auto-import": "2.7.4",
-    "ember-cli": "5.9.0",
+    "ember-cli": "5.10.0",
     "ember-cli-clean-css": "3.0.0",
     "ember-cli-dependency-checker": "3.3.2",
-    "ember-cli-deprecation-workflow": "2.2.0",
+    "ember-cli-deprecation-workflow": "3.0.1",
     "ember-cli-inject-live-reload": "2.1.0",
     "ember-cli-sri": "2.1.1",
     "ember-cli-terser": "4.0.2",
-    "ember-data": "5.3.3",
+    "ember-data": "5.3.8",
     "ember-intl": "7.0.4",
     "ember-load-initializers": "2.1.2",
     "ember-qunit": "8.1.0",
     "ember-resolver": "12.0.1",
-    "ember-source": "5.9.0",
+    "ember-source": "5.10.1",
     "ember-source-channel-url": "3.0.0",
     "ember-template-lint": "6.0.0",
     "ember-try": "3.0.0",
@@ -69,18 +69,18 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-ember": "12.1.1",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "17.9.0",
-    "eslint-plugin-prettier": "5.1.3",
+    "eslint-plugin-n": "17.10.1",
+    "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-qunit": "8.1.1",
     "loader.js": "4.7.0",
-    "prettier": "3.3.2",
-    "qunit": "2.21.0",
+    "prettier": "3.3.3",
+    "qunit": "2.21.1",
     "qunit-dom": "3.2.0",
     "semantic-release": "24.0.0",
-    "stylelint": "16.6.1",
+    "stylelint": "16.7.0",
     "stylelint-config-standard": "36.0.1",
-    "stylelint-prettier": "5.0.0",
-    "webpack": "5.92.1"
+    "stylelint-prettier": "5.0.2",
+    "webpack": "5.93.0"
   },
   "peerDependencies": {
     "ember-data": "~4.12.0 || ^5.0.0",
@@ -99,5 +99,5 @@
   "release": {
     "extends": "@adfinis/semantic-release-config"
   },
-  "packageManager": "pnpm@8.9.2"
+  "packageManager": "pnpm@9.6.0"
 }
