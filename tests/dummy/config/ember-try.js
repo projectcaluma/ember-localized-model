@@ -28,6 +28,9 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             "ember-data": "~4.12.0",
+            "@ember-data/adapter": "~4.12.0",
+            "@ember-data/model": "~4.12.0",
+            "@ember-data/serializer": "~4.12.0",
           },
         },
       },

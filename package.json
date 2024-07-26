@@ -34,6 +34,7 @@
     "@babel/core": "^7.24.9",
     "@embroider/macros": "^1.16.5",
     "@glimmer/tracking": "^1.1.2",
+    "ember-auto-import": "^2.7.4",
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0"
   },
@@ -48,7 +49,6 @@
     "@glimmer/component": "1.1.2",
     "broccoli-asset-rev": "3.0.0",
     "concurrently": "8.2.2",
-    "ember-auto-import": "2.7.4",
     "ember-cli": "5.10.0",
     "ember-cli-clean-css": "3.0.0",
     "ember-cli-dependency-checker": "3.3.2",
@@ -83,7 +83,10 @@
     "webpack": "5.93.0"
   },
   "peerDependencies": {
-    "ember-data": "~4.12.0 || ^5.0.0",
+    "@ember-data/adapter": "~4.12.0 || >= 5.0.0",
+    "@ember-data/model": "~4.12.0 || >= 5.0.0",
+    "@ember-data/serializer": "~4.12.0 || >= 5.0.0",
+    "ember-data": "~4.12.0 || >= 5.0.0",
     "ember-intl": "^7.0.0",
     "ember-source": ">= 4.0.0"
   },
