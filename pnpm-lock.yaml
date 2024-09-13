@@ -76,8 +76,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2(ember-cli@5.10.0(handlebars@4.7.8)(underscore@1.13.7))
       ember-cli-deprecation-workflow:
-        specifier: 3.0.1
-        version: 3.0.1(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.94.0))
+        specifier: 3.0.2
+        version: 3.0.2(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.94.0))
       ember-cli-inject-live-reload:
         specifier: 2.1.0
         version: 2.1.0
@@ -3001,8 +3001,8 @@ packages:
     peerDependencies:
       ember-cli: ^3.2.0 || >=4.0.0
 
-  ember-cli-deprecation-workflow@3.0.1:
-    resolution: {integrity: sha512-d5wM5IHu+HjIK2TucQWOTFD9725Dx+xBZ3oBc0ZLaB8mdTV3wrAOrQ1vyzcuZEe/uvFBhr5TIy5QP+UNJ2q8Hg==}
+  ember-cli-deprecation-workflow@3.0.2:
+    resolution: {integrity: sha512-Wjw4nNn1GMKLjKo/CrdFNaYSEW3qOuJYnBh7l8uO84EyWOYYvOLp9Ef4kGwaeehRgK8qDNcdzTFdPO6TD/aFIg==}
     engines: {node: '>= 18'}
     peerDependencies:
       ember-source: '>= 4.0.0'
@@ -8911,6 +8911,7 @@ snapshots:
       ember-cli-babel: 7.26.11
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   '@ember/test-helpers@3.3.1(@babel/core@7.25.2)(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.94.0))(webpack@5.94.0)':
     dependencies:
@@ -11452,10 +11453,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-deprecation-workflow@3.0.1(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.94.0)):
+  ember-cli-deprecation-workflow@3.0.2(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.94.0)):
     dependencies:
       '@babel/core': 7.25.2
-      '@ember/string': 3.1.1
       ember-cli-babel: 8.2.0(@babel/core@7.25.2)
       ember-source: 5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.94.0)
     transitivePeerDependencies:
