@@ -91,8 +91,8 @@ importers:
         specifier: 5.3.9
         version: 5.3.9(@ember/string@3.1.1)(@ember/test-helpers@5.1.0(@babel/core@7.25.2)(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1)))(@ember/test-waiters@4.0.0)(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1))(qunit@2.24.1)
       ember-intl:
-        specifier: 7.1.2
-        version: 7.1.2(@ember/test-helpers@5.1.0(@babel/core@7.25.2)(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1)))(typescript@5.5.4)(webpack@5.97.1)
+        specifier: 7.1.3
+        version: 7.1.3(@ember/test-helpers@5.1.0(@babel/core@7.25.2)(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1)))(typescript@5.5.4)(webpack@5.97.1)
       ember-load-initializers:
         specifier: 3.0.1
         version: 3.0.1(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1))
@@ -2887,8 +2887,8 @@ packages:
   caniuse-lite@1.0.30001669:
     resolution: {integrity: sha512-DlWzFDJqstqtIVx1zeSpIMLjunf5SmwOw0N2Ck/QSQdS8PLS4+9HrLaYei4w8BIAL7IB/UEDu889d8vhCTPA0w==}
 
-  caniuse-lite@1.0.30001696:
-    resolution: {integrity: sha512-pDCPkvzfa39ehJtJ+OwGT/2yvT2SbjfHhiIW2LWOAcMQ7BzwxT/XuyUp4OTOd0XFWA6BKw0JalnBHgSi5DGJBQ==}
+  caniuse-lite@1.0.30001698:
+    resolution: {integrity: sha512-xJ3km2oiG/MbNU8G6zIq6XRZ6HtAOVXsbOrP/blGazi52kc5Yy7b6sDA5O+FbROzRrV7BSTllLHuNvmawYUJjw==}
 
   capture-exit@2.0.0:
     resolution: {integrity: sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==}
@@ -3614,8 +3614,8 @@ packages:
   electron-to-chromium@1.5.41:
     resolution: {integrity: sha512-dfdv/2xNjX0P8Vzme4cfzHqnPm5xsZXwsolTYr0eyW18IUmNyG08vL+fttvinTfhKfIKdRoqkDIC9e9iWQCNYQ==}
 
-  electron-to-chromium@1.5.90:
-    resolution: {integrity: sha512-C3PN4aydfW91Natdyd449Kw+BzhLmof6tzy5W1pFC5SpQxVXT+oyiyOG9AgYYSN9OdA/ik3YkCrpwqI8ug5Tug==}
+  electron-to-chromium@1.5.96:
+    resolution: {integrity: sha512-8AJUW6dh75Fm/ny8+kZKJzI1pgoE8bKLZlzDU2W1ENd+DXKJrx7I7l9hb8UWR4ojlnb5OlixMt00QWiYJoVw1w==}
 
   ember-auto-import@2.10.0:
     resolution: {integrity: sha512-bcBFDYVTFHyqyq8BNvsj6UO3pE6Uqou/cNmee0WaqBgZ+1nQqFz0UE26usrtnFAT+YaFZSkqF2H36QW84k0/cg==}
@@ -3746,8 +3746,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  ember-intl@7.1.2:
-    resolution: {integrity: sha512-09dwbelN0b1+Skzu9ta6Dud23CNE3h2R1HzS+YXxTJY7QbExO+O0OlKLYPcwQBt2vcnA/j4kT3RMg9XzS5Trfw==}
+  ember-intl@7.1.3:
+    resolution: {integrity: sha512-QsVJr4Slf4jvaqVAvKA2Yd0y5SzPstUzcjJmPzn55EkgiEwQkyV1IxrllWnq4EiwyNl7toI4RJAxiK+BDO7Sbw==}
     engines: {node: 18.* || >= 20}
     peerDependencies:
       '@ember/test-helpers': ^2.9.4 || ^3.2.0 || ^4.0.0 || ^5.0.0
@@ -6783,6 +6783,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.1:
+    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
@@ -8070,7 +8075,7 @@ snapshots:
       '@babel/core': 7.25.2
       '@babel/helper-compilation-targets': 7.26.5
       '@babel/helper-plugin-utils': 7.26.5
-      debug: 4.3.5
+      debug: 4.4.0
       lodash.debounce: 4.0.8
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -8081,7 +8086,7 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/helper-compilation-targets': 7.26.5
       '@babel/helper-plugin-utils': 7.26.5
-      debug: 4.3.5
+      debug: 4.4.0
       lodash.debounce: 4.0.8
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -8092,7 +8097,7 @@ snapshots:
       '@babel/core': 7.26.7
       '@babel/helper-compilation-targets': 7.26.5
       '@babel/helper-plugin-utils': 7.26.5
-      debug: 4.3.5
+      debug: 4.4.0
       lodash.debounce: 4.0.8
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -10806,7 +10811,7 @@ snapshots:
   '@commitlint/is-ignored@19.2.2':
     dependencies:
       '@commitlint/types': 19.0.3
-      semver: 7.7.0
+      semver: 7.7.1
 
   '@commitlint/lint@19.2.2':
     dependencies:
@@ -11111,7 +11116,7 @@ snapshots:
       calculate-cache-key-for-tree: 2.0.0
       ember-cli-babel: 7.26.11
       ember-cli-version-checker: 5.1.2
-      semver: 7.7.0
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -11222,7 +11227,7 @@ snapshots:
       minimatch: 3.1.2
       pkg-entry-points: 1.1.1
       resolve-package-path: 4.0.3
-      semver: 7.7.0
+      semver: 7.7.1
       typescript-memoize: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -13016,8 +13021,8 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001696
-      electron-to-chromium: 1.5.90
+      caniuse-lite: 1.0.30001698
+      electron-to-chromium: 1.5.96
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
@@ -13107,7 +13112,7 @@ snapshots:
 
   caniuse-lite@1.0.30001669: {}
 
-  caniuse-lite@1.0.30001696: {}
+  caniuse-lite@1.0.30001698: {}
 
   capture-exit@2.0.0:
     dependencies:
@@ -13365,7 +13370,7 @@ snapshots:
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.8
       meow: 13.2.0
-      semver: 7.7.0
+      semver: 7.7.1
 
   conventional-commits-filter@5.0.0: {}
 
@@ -13649,7 +13654,7 @@ snapshots:
 
   electron-to-chromium@1.5.41: {}
 
-  electron-to-chromium@1.5.90: {}
+  electron-to-chromium@1.5.96: {}
 
   ember-auto-import@2.10.0(webpack@5.97.1):
     dependencies:
@@ -13659,7 +13664,7 @@ snapshots:
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.26.7)
       '@babel/plugin-transform-class-static-block': 7.26.0(@babel/core@7.26.7)
       '@babel/preset-env': 7.26.7(@babel/core@7.26.7)
-      '@embroider/macros': 1.16.6
+      '@embroider/macros': 1.16.10
       '@embroider/shared-internals': 2.8.1
       babel-loader: 8.4.1(@babel/core@7.26.7)(webpack@5.97.1)
       babel-plugin-ember-modules-api-polyfill: 3.5.0
@@ -13685,7 +13690,7 @@ snapshots:
       pkg-entry-points: 1.1.1
       resolve: 1.22.10
       resolve-package-path: 4.0.3
-      semver: 7.7.0
+      semver: 7.7.1
       style-loader: 2.0.0(webpack@5.97.1)
       typescript-memoize: 1.1.1
       walk-sync: 3.0.0
@@ -13975,7 +13980,7 @@ snapshots:
       fs-extra: 9.1.0
       resolve: 1.22.10
       rsvp: 4.8.5
-      semver: 7.7.0
+      semver: 7.7.1
       stagehand: 1.0.1
       walk-sync: 2.2.0
     transitivePeerDependencies:
@@ -14186,7 +14191,7 @@ snapshots:
     transitivePeerDependencies:
       - eslint
 
-  ember-intl@7.1.2(@ember/test-helpers@5.1.0(@babel/core@7.25.2)(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1)))(typescript@5.5.4)(webpack@5.97.1):
+  ember-intl@7.1.3(@ember/test-helpers@5.1.0(@babel/core@7.25.2)(ember-source@6.1.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.97.1)))(typescript@5.5.4)(webpack@5.97.1):
     dependencies:
       '@babel/core': 7.26.7
       '@formatjs/icu-messageformat-parser': 2.11.0
@@ -14609,7 +14614,7 @@ snapshots:
   eslint-compat-utils@0.5.1(eslint@9.19.0(jiti@1.21.6)):
     dependencies:
       eslint: 9.19.0(jiti@1.21.6)
-      semver: 7.7.0
+      semver: 7.7.1
 
   eslint-config-prettier@10.0.1(eslint@9.19.0(jiti@1.21.6)):
     dependencies:
@@ -16693,7 +16698,7 @@ snapshots:
     dependencies:
       growly: 1.3.0
       is-wsl: 2.2.0
-      semver: 7.7.0
+      semver: 7.7.1
       shellwords: 0.1.1
       uuid: 8.3.2
       which: 2.0.2
@@ -16711,7 +16716,7 @@ snapshots:
   normalize-package-data@6.0.2:
     dependencies:
       hosted-git-info: 7.0.2
-      semver: 7.7.0
+      semver: 7.7.1
       validate-npm-package-license: 3.0.4
 
   normalize-path@2.1.1:
@@ -17638,6 +17643,8 @@ snapshots:
   semver@7.6.3: {}
 
   semver@7.7.0: {}
+
+  semver@7.7.1: {}
 
   send@0.19.0:
     dependencies:
@@ -18644,7 +18651,7 @@ snapshots:
   validate-peer-dependencies@1.2.0:
     dependencies:
       resolve-package-path: 3.1.0
-      semver: 7.7.0
+      semver: 7.7.1
 
   vary@1.1.2: {}
 
