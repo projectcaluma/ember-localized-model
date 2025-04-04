@@ -97,8 +97,8 @@ importers:
         specifier: 5.3.12
         version: 5.3.12(@ember/test-helpers@5.2.1(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0)))(@ember/test-waiters@4.1.0)(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0))(qunit@2.24.1)
       ember-intl:
-        specifier: 7.1.5
-        version: 7.1.5(@ember/test-helpers@5.2.1(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0)))(typescript@5.8.2)(webpack@5.98.0)
+        specifier: 7.1.6
+        version: 7.1.6(@ember/test-helpers@5.2.1(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0)))(typescript@5.8.2)(webpack@5.98.0)
       ember-load-initializers:
         specifier: 3.0.1
         version: 3.0.1(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0))
@@ -2219,8 +2219,8 @@ packages:
     resolution: {integrity: sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg==}
     engines: {node: '>=0.10.0'}
 
-  cldr-core@46.1.0:
-    resolution: {integrity: sha512-YWIbxgpO6fUais+FIm6Stl/KoAAhNJx4wDg2sg06QxK6GQ+i1iwdpCiyIJ7CTWduRuqUmRoaYpL/n5/8Q8ywxg==}
+  cldr-core@47.0.0:
+    resolution: {integrity: sha512-tdYRy66DMgpjEwVOWCTN0zhNr+zh1+d4A6MCNgJKU7voFDGsrwcWHor6jcqudHDmElCgyVNqWBKAB1JeNdSOKg==}
 
   clean-base-url@1.0.0:
     resolution: {integrity: sha512-9q6ZvUAhbKOSRFY7A/irCQ/rF0KIpa3uXpx6izm8+fp7b2H4hLeUJ+F1YYk9+gDQ/X8Q0MEyYs+tG3cht//HTg==}
@@ -2998,8 +2998,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  ember-intl@7.1.5:
-    resolution: {integrity: sha512-k2ZXnDBMUhRRVzoltXmu8jWuY3UCKDoXuaS2opMmnBkT5EtrcfnkvXr7VP+2RV2S09k35Kr0XTh82H0Ph7OMeg==}
+  ember-intl@7.1.6:
+    resolution: {integrity: sha512-828AdJfj/tlMVolQ9XbNkG84mNx/ktBMpZmHoQwEAem3RM5l7y2w4ze42gP3ITTFKhR6ogJx30glZrZwezqJOA==}
     engines: {node: 18.* || >= 20}
     peerDependencies:
       '@ember/test-helpers': ^2.9.4 || ^3.2.0 || ^4.0.0 || ^5.0.0
@@ -9688,7 +9688,7 @@ snapshots:
       isobject: 3.0.1
       static-extend: 0.1.2
 
-  cldr-core@46.1.0: {}
+  cldr-core@47.0.0: {}
 
   clean-base-url@1.0.0: {}
 
@@ -10583,7 +10583,7 @@ snapshots:
     transitivePeerDependencies:
       - eslint
 
-  ember-intl@7.1.5(@ember/test-helpers@5.2.1(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0)))(typescript@5.8.2)(webpack@5.98.0):
+  ember-intl@7.1.6(@ember/test-helpers@5.2.1(@babel/core@7.26.10)(ember-source@6.3.0(@glimmer/component@2.0.0)(rsvp@4.8.5)(webpack@5.98.0)))(typescript@5.8.2)(webpack@5.98.0):
     dependencies:
       '@babel/core': 7.26.10
       '@formatjs/icu-messageformat-parser': 2.11.2
@@ -10593,7 +10593,7 @@ snapshots:
       broccoli-merge-trees: 4.2.0
       broccoli-source: 3.0.1
       calculate-cache-key-for-tree: 2.0.0
-      cldr-core: 46.1.0
+      cldr-core: 47.0.0
       ember-auto-import: 2.10.0(webpack@5.98.0)
       ember-cli-babel: 8.2.0(@babel/core@7.26.10)
       ember-cli-typescript: 5.3.0
