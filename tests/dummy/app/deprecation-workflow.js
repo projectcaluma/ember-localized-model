@@ -10,5 +10,9 @@ export default setupDeprecationWorkflow({
         : "throw",
       matchId: "importing-inject-from-ember-service",
     },
+    {
+      handler: "silence",
+      matchId: "deprecate-import-libraries-from-ember",
+    },
   ],
 });
