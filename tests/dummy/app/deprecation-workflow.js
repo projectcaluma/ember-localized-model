@@ -14,5 +14,11 @@ export default setupDeprecationWorkflow({
       handler: "silence",
       matchId: "deprecate-import-libraries-from-ember",
     },
+    {
+      handler: macroCondition(dependencySatisfies("ember-source", "< 7.0.0"))
+        ? "silence"
+        : "throw",
+      matchId: "deprecate-import-change-properties-from-ember",
+    },
   ],
 });
