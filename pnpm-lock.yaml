@@ -41,13 +41,13 @@ importers:
     devDependencies:
       '@adfinis/eslint-config':
         specifier: 3.0.2
-        version: 3.0.2(@babel/core@7.28.4)(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(@babel/plugin-proposal-decorators@7.28.0(@babel/core@7.28.4))(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-ember@13.3.0(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3))(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-n@18.0.1(eslint@9.38.0(jiti@2.6.1))(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3))(eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2))(eslint-plugin-qunit@8.2.6(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)
+        version: 3.0.2(@babel/core@7.28.4)(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(@babel/plugin-proposal-decorators@7.28.0(@babel/core@7.28.4))(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-ember@13.3.0(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3))(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-n@18.0.1(eslint@9.38.0(jiti@2.6.1))(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3))(eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2))(eslint-plugin-qunit@8.2.6(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)
       '@adfinis/semantic-release-config':
         specifier: 6.0.0
         version: 6.0.0(@types/node@25.9.1)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)(typescript@5.9.3)
       '@babel/eslint-parser':
-        specifier: 7.28.4
-        version: 7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))
+        specifier: 7.29.7
+        version: 7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))
       '@babel/plugin-proposal-decorators':
         specifier: 7.28.0
         version: 7.28.0(@babel/core@7.28.4)
@@ -128,7 +128,7 @@ importers:
         version: 10.1.8(eslint@9.38.0(jiti@2.6.1))
       eslint-plugin-ember:
         specifier: 13.3.0
-        version: 13.3.0(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
+        version: 13.3.0(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-import:
         specifier: 2.32.0
         version: 2.32.0(eslint@9.38.0(jiti@2.6.1))
@@ -238,8 +238,8 @@ packages:
     resolution: {integrity: sha512-2BCOP7TN8M+gVDj7/ht3hsaO/B/n5oDbiAyyvnRlNOs+u1o+JWNYTQrmpuNp1/Wq2gcFrI01JAW+paEKDMx/CA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/eslint-parser@7.28.4':
-    resolution: {integrity: sha512-Aa+yDiH87980jR6zvRfFuCR1+dLb00vBydhTL+zI992Rz/wQhSvuxjmOOuJOgO3XmakO6RykRGD2S1mq1AtgHA==}
+  '@babel/eslint-parser@7.29.7':
+    resolution: {integrity: sha512-zxt+UJTOMKvUt3yOg+D58MLuz334pHp93qifMFcjIIO+9hN6t+ufw2gi7vDPMpxvfnHRR+3VVXvIjineCcgyXw==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
@@ -7294,10 +7294,10 @@ snapshots:
 
   '@actions/io@3.0.2': {}
 
-  '@adfinis/eslint-config@3.0.2(@babel/core@7.28.4)(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(@babel/plugin-proposal-decorators@7.28.0(@babel/core@7.28.4))(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-ember@13.3.0(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3))(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-n@18.0.1(eslint@9.38.0(jiti@2.6.1))(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3))(eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2))(eslint-plugin-qunit@8.2.6(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)':
+  '@adfinis/eslint-config@3.0.2(@babel/core@7.28.4)(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(@babel/plugin-proposal-decorators@7.28.0(@babel/core@7.28.4))(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-ember@13.3.0(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3))(eslint-plugin-import@2.32.0(eslint@9.38.0(jiti@2.6.1)))(eslint-plugin-n@18.0.1(eslint@9.38.0(jiti@2.6.1))(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3))(eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2))(eslint-plugin-qunit@8.2.6(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)':
     dependencies:
       '@babel/core': 7.28.4
-      '@babel/eslint-parser': 7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))
+      '@babel/eslint-parser': 7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))
       '@babel/plugin-proposal-decorators': 7.28.0(@babel/core@7.28.4)
       eslint: 9.38.0(jiti@2.6.1)
       eslint-config-prettier: 10.1.8(eslint@9.38.0(jiti@2.6.1))
@@ -7305,7 +7305,7 @@ snapshots:
       eslint-plugin-prettier: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(prettier@3.6.2)
       prettier: 3.6.2
     optionalDependencies:
-      eslint-plugin-ember: 13.3.0(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
+      eslint-plugin-ember: 13.3.0(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-n: 18.0.1(eslint@9.38.0(jiti@2.6.1))(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
       eslint-plugin-qunit: 8.2.6(eslint@9.38.0(jiti@2.6.1))
 
@@ -7363,7 +7363,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))':
+  '@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))':
     dependencies:
       '@babel/core': 7.28.4
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -11926,7 +11926,7 @@ snapshots:
       - ember-provide-consume-context
       - supports-color
 
-  ember-eslint-parser@0.12.1(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(typescript@5.9.3):
+  ember-eslint-parser@0.12.1(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(typescript@5.9.3):
     dependencies:
       '@glimmer/syntax': 0.95.0
       '@typescript-eslint/tsconfig-utils': 8.60.0(typescript@5.9.3)
@@ -11937,7 +11937,7 @@ snapshots:
       mathml-tag-names: 4.0.0
       svg-tags: 1.0.0
     optionalDependencies:
-      '@babel/eslint-parser': 7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))
+      '@babel/eslint-parser': 7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1))
     transitivePeerDependencies:
       - typescript
 
@@ -12267,14 +12267,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-ember@13.3.0(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3):
+  eslint-plugin-ember@13.3.0(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
       aria-query: 5.3.2
       axobject-query: 4.1.0
       css-tree: 3.2.1
       editorconfig: 3.0.2
-      ember-eslint-parser: 0.12.1(@babel/eslint-parser@7.28.4(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(typescript@5.9.3)
+      ember-eslint-parser: 0.12.1(@babel/eslint-parser@7.29.7(@babel/core@7.28.4)(eslint@9.38.0(jiti@2.6.1)))(typescript@5.9.3)
       ember-rfc176-data: 0.3.18
       eslint: 9.38.0(jiti@2.6.1)
       eslint-utils: 3.0.0(eslint@9.38.0(jiti@2.6.1))
